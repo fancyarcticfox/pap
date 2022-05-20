@@ -1,0 +1,1 @@
+import"./app.2b9af6ff.js";import{u as n,a}from"./pages.c22eb3e2.js";const l=()=>{const t=a();return n("@dashboard/overview",async()=>{try{const[i,e,r,o]=await Promise.all([t.mineUST.tokenPrice(),t.mineUST.liquidityPoolInfo(),t.stakedSupply(),t.circulatingSupply()]);return{liquidityInfo:e,priceInUst:i,totalStaked:r,circulatingSupply:o}}catch{return}})};export{l as u};
